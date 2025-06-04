@@ -47,12 +47,18 @@ This project builds a binary classifier using **Logistic Regression** to detect 
 - ROC Curve Plot ✅
 - Threshold tuning at **0.3** with performance comparison ✅
 
-### 6️⃣ Visualizations (Saved as PNG)
-All plots are **automatically saved** in the working directory:
-- `confusion_matrix.png`
-- `roc_curve.png`
-- `sigmoid_function.png`
-- `confusion_matrix_threshold_0.3.png`
+### 6️⃣ Visualizations
+- **Confusion Matrix**  
+  ![Confusion Matrix](Confusion%20Matrix.png)
+
+- **ROC Curve**  
+  ![ROC Curve](ROC_Curve.png)
+
+- **Sigmoid Function**  
+  ![Sigmoid Function](Sigmoid%20Function.png)
+
+- **Confusion Matrix (Threshold = 0.3)**  
+  ![Threshold 0.3](confusion_matrix_threshold_0.3.png)
 
 ---
 
