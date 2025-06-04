@@ -64,12 +64,26 @@ This project builds a binary classifier using **Logistic Regression** to detect 
 
 ## 📈 Results
 
-| Metric                | Value        |
-|------------------------|--------------|
-| **Accuracy**           | 97.4%        |
-| **Precision (1 - Malignant)** | 98%   |
-| **Recall (1 - Malignant)**    | 95%   |
-| **ROC AUC Score**      | **1.00**     |
+### 🔹 Default Threshold (0.5)
+
+| Class      | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| **Benign** (0)    | 0.97      | 0.99   | 0.98     | 71      |
+| **Malignant** (1) | 0.98      | 0.95   | 0.96     | 43      |
+| **Accuracy**      |           |        | **97.4%**  | 114     |
+| **Macro Avg**     | 0.97      | 0.97   | 0.97     |   114     |
+| **Weighted Avg**  | 0.97      | 0.97   | 0.97     |   114    |
+
+### 🔹 Custom Threshold (0.3)
+
+| Class      | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| **Benign** (0)    | 0.99      | 0.94   | 0.96     | 71      |
+| **Malignant** (1) | 0.91      | 0.98   | 0.94     | 43      |
+| **Accuracy**      |           |        | **96%**  | 114     |
+| **Macro Avg**     | 0.95      | 0.96   | 0.95     |   114      |
+| **Weighted Avg**  | 0.96      | 0.96   | 0.96     |   114      |
+
 
 - Excellent classification performance with very low false negatives.
 - Threshold tuning to 0.3 improved detection sensitivity for malignant tumors.
