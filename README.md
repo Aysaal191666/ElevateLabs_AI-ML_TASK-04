@@ -41,11 +41,11 @@ This project builds a binary classifier using **Logistic Regression** to detect 
 
 ### 5️⃣ Evaluation Metrics
 - Accuracy Score
-- Confusion Matrix ✅
+- Confusion Matrix 
 - Classification Report
-- ROC-AUC Score ✅
-- ROC Curve Plot ✅
-- Threshold tuning at **0.3** with performance comparison ✅
+- ROC-AUC Score 
+- ROC Curve Plot 
+- Threshold tuning at **0.3** with performance comparison 
 
 ### 6️⃣ Visualizations
 - **Confusion Matrix**  
@@ -66,35 +66,18 @@ This project builds a binary classifier using **Logistic Regression** to detect 
 
 | Metric                | Value        |
 |------------------------|--------------|
-| **Accuracy**           | 97.4% ✅      |
-| **Precision (1 - Malignant)** | 98% ✅ |
-| **Recall (1 - Malignant)**    | 95% ✅ |
-| **ROC AUC Score**      | **1.00** 🔥   |
+| **Accuracy**           | 97.4%        |
+| **Precision (1 - Malignant)** | 98%   |
+| **Recall (1 - Malignant)**    | 95%   |
+| **ROC AUC Score**      | **1.00**     |
 
-- 🧠 Excellent classification performance with very low false negatives.
-- ✅ Threshold tuning to 0.3 improved detection sensitivity for malignant tumors.
-
----
-
-## 📷 Sample Visuals
-
-> Saved automatically — can be embedded in notebooks or GitHub Pages.
-
-- **Confusion Matrix**  
-  ![Confusion Matrix](confusion_matrix.png)
-
-- **ROC Curve**  
-  ![ROC Curve](roc_curve.png)
-
-- **Sigmoid Function**  
-  ![Sigmoid Function](sigmoid_function.png)
-
-- **Confusion Matrix (Threshold = 0.3)**  
-  ![Threshold 0.3](confusion_matrix_threshold_0.3.png)
+- Excellent classification performance with very low false negatives.
+- Threshold tuning to 0.3 improved detection sensitivity for malignant tumors.
 
 ---
 
-## 🧠 What You’ll Learn
+
+##  What You’ll Learn
 
 - How logistic regression works for binary classification
 - How to evaluate a classifier beyond just accuracy
@@ -104,7 +87,7 @@ This project builds a binary classifier using **Logistic Regression** to detect 
 
 ---
 
-## 🧪 How to Run
+##  How to Run
 
 ```bash
 # 1. Clone this repository
